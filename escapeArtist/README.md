@@ -20,7 +20,7 @@ Here’s a general outline of the program:
 
 1. Initializes all variables/connections and begins the servo/sensor processes
 
-2 Calibrates the sensors by moving a small amount to detect even incremental changes in the readings, and then averages those readings out to create a threshold
+2. Calibrates the sensors by moving a small amount to detect even incremental changes in the readings, and then averages those readings out to create a threshold
 
 3. Endlessly follows a black line using IR sensors unless…
 
