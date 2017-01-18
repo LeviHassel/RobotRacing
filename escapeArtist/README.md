@@ -5,12 +5,15 @@ Levi Hassel and Riley Smith
 
 ## Overview
 This project uses an Arduino-based robot we designed in our Embedded Systems class. The goal was to build a robot capable of following black lines, detecting objects in its environment and avoiding obstacles, whilst moving very fast. It was to face off against another robot in an arena by following a line and avoiding obstacles (as well as the opponent) in a race to get to the opposite side first. The robot is fully autonomous.
+
 ![alt text](https://cloud.githubusercontent.com/assets/9669653/22046556/11dbd766-dce7-11e6-9a4f-c97d38055161.png "Project Overview")
 
 ## Robot Design
 Though it may look messy, it’s all in the name of streamlining, lacking even a single breadboard and containing an additional Arduino Uno (for the sole purpose of powering two of the servos). We used multiple servos, wheels, IR sensors, proximity sensors and bump sensors in combination with two Arduino Unos in our build. Everything is connected pin-to-pin or by securing wires together, either by tying them around each other or clamping them in bundles using alligator clips. While this minimalist approach made troubleshooting much simpler, it also drastically increased the amount of troubleshooting required (the connections were very unstable and bumping anything usually resulted in a non-functioning robot). To resolve this issue, all of the connections were coated in a generous volume of a conductive glue.
-[design1.png]
-[design2.png]
+
+![alt text](https://cloud.githubusercontent.com/assets/9669653/22046555/11dad0e6-dce7-11e6-838a-7da0b6579f54.jpg "Robot Design")
+
+![alt text](https://cloud.githubusercontent.com/assets/9669653/22046554/11d807a8-dce7-11e6-8768-b9ea0a53969a.jpg "Robot Design")
 
 ## Control Program
 Here’s a general outline of the program:
@@ -28,7 +31,9 @@ We ending up using the default settings for all variables (frequency, current et
 
 #### Performance Summary
 This plot shows proximity readings as the distance between it and the object facing it varies:
-[plot.png]
+
+![alt text](https://cloud.githubusercontent.com/assets/9669653/22046557/11df80d2-dce7-11e6-9b89-bc3ae1a82e2a.png "Proximity Readings")
+
 As you can see, it did not give very useful readings (at least with our setup). We tried to compensate for this by designing the obstacle avoidance function in a way that would allow for it to quickly turn very tightly away from the object it detected a centimeter or two away. For the most part, we were able to get around this shortcoming and still found a way to best utilize our (rather unimpressive) proximity sensor.
 
 #### Interference
