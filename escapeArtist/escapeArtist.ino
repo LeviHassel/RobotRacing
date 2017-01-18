@@ -1,3 +1,7 @@
+// =============
+// Escape Artist
+// =============
+
 #include <Servo.h>
 #include <Wire.h>
 #include <SoftwareSerial.h>
@@ -98,7 +102,7 @@ void setup() {
   delay(200);
 }
 
-/* Loops through this continuously once running */
+/* Loops through this continuously once setup is complete */
 void loop() {
   readSensors();
   //printSensorValues();        					 //TESTING ONLY

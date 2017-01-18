@@ -5,7 +5,7 @@ Levi Hassel and Riley Smith
 
 ## Overview
 This project uses an Arduino-based robot we designed in our Embedded Systems class. The goal was to build a robot capable of following black lines, detecting objects in its environment and avoiding obstacles, whilst moving very fast. It was to face off against another robot in an arena by following a line and avoiding obstacles (as well as the opponent) in a race to get to the opposite side first. The robot is fully autonomous.
-[overview.png]
+![alt text](https://cloud.githubusercontent.com/assets/9669653/22046556/11dbd766-dce7-11e6-9a4f-c97d38055161.png "Project Overview")
 
 ## Robot Design
 Though it may look messy, it’s all in the name of streamlining, lacking even a single breadboard and containing an additional Arduino Uno (for the sole purpose of powering two of the servos). We used multiple servos, wheels, IR sensors, proximity sensors and bump sensors in combination with two Arduino Unos in our build. Everything is connected pin-to-pin or by securing wires together, either by tying them around each other or clamping them in bundles using alligator clips. While this minimalist approach made troubleshooting much simpler, it also drastically increased the amount of troubleshooting required (the connections were very unstable and bumping anything usually resulted in a non-functioning robot). To resolve this issue, all of the connections were coated in a generous volume of a conductive glue.
