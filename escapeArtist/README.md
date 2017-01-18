@@ -53,7 +53,7 @@ We used three line sensors, which were all placed under the front of the robot. 
 The bump sensors, as digital pins, are pretty self-explanatory. They return 1 when not pressed and 0 when pressed in. The idea was to use these to alter the control flow based on which side of the robot was touching something, a concept that worked very reliably for us.
 
 ## Requirements
-This code is not going to be very useful unless you have an Arduino-based robot built exactly the way mine was. However, it works great when all you do is look at it. With a correctly built robot, all you need to do is download the Arduino IDE, connect the Arduino Uno to your PC using the USB plug and compile/run the code.
+This code is not going to be very useful unless you have an Arduino-based robot built exactly the way ours was. However, it works great when all you do is look at it. With a correctly built robot, all you need to do is download the Arduino IDE, connect the Arduino Uno to your PC using the USB plug and compile/run the code.
 
 ## References
 https://www.arduino.cc/en/Main/ArduinoBoardUno
