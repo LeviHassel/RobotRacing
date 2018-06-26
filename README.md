@@ -1,8 +1,5 @@
 # Robot Racing
 
-### Contributors
-Levi Hassel
-
 ## Overview
 This contains two projects from my Embedded Systems class, each involving a unique build of an Arduino-based robot designed for a specific purpose:
 * [Line Tracer](https://github.com/LeviHassel/RobotRacing/tree/master/lineTracer "Line Tracer") (Project 1) involves the robot being able to follow a black line on a white surface

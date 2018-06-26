@@ -1,8 +1,5 @@
 # Robot Racing, Project 1: Line Tracer
 
-### Contributors
-Levi Hassel
-
 ## Overview
 This project uses an Arduino-based robot I designed in my Embedded Systems class. The robot is tasked with using an IR sensor to follow a black line on a variety of white surface courses. Some courses have varying line widths, some have sharp turns and some have long curvy turns - they are rather unpredictable. Speed and precision were the main goals here and I chose to focus on precision with my robot.
 
